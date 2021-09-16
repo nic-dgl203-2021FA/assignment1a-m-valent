@@ -11,25 +11,39 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 
 /* Global Styles
 =========================================*/
+body {
+    color: #1d3557ff
+}
 img {
     width: 300px;
 }
 
 /* Profile
 =========================================*/
-
+header {
+    background: #1d3557ff;
+    color: #f1faeeff;
+}
 
 /* Projects
 =========================================*/
-
+.projects {
+    background: #f1faeeff;
+}
 
 /* Work Experience
 =========================================*/
-
+.work-experience {
+    background: #a8dadcff;
+}
 
 /* Education
 =========================================*/
 
 
-/* Contact
+/* Contact Info
 =========================================*/
+footer {
+    background: #457b9dff;
+    color: #f1faeeff;
+}
