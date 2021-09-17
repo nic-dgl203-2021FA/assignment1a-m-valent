@@ -17,6 +17,12 @@ body {
 img {
     width: 300px;
 }
+a {
+    color: #e63946ff;
+}
+a:hover {
+    text-decoration: none;
+}
 
 /* Profile
 =========================================*/
