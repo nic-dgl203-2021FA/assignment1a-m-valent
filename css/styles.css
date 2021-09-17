@@ -12,7 +12,8 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 /* Global Styles
 =========================================*/
 body {
-    color: #1d3557ff
+    color: #1d3557ff;
+    margin: 0;
 }
 img {
     width: 300px;
@@ -24,7 +25,7 @@ a:hover {
     text-decoration: none;
 }
 .content-wrap {
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
 }
 
