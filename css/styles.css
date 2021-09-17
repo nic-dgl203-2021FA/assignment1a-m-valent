@@ -36,6 +36,16 @@ header {
 .projects {
     background: #f1faeeff;
 }
+.projects a {
+    color: #1d3557ff;
+    background: #457b9dff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects a:hover {
+    background: rgba(29, 53, 87, 60%);
+}
 
 /* Work Experience
 =========================================*/
