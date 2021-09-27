@@ -15,7 +15,9 @@ body {
   color: #1d3557ff;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
 }
 
 img {
@@ -30,13 +32,18 @@ a:hover {
   text-decoration: none;
 }
 
+h1 {
+font-size: 64px;
+}
+
 h2 {
-  margin: 0;
+  font-size: 36px;
 }
 
 h1,
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", cursive;
+  margin: 0;
 }
 
 .content-wrap {
