@@ -11,6 +11,14 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 
 /* Global Styles
 =========================================*/
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
   color: #1d3557ff;
   margin: 0;
