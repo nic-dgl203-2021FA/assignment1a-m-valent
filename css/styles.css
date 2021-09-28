@@ -13,11 +13,13 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 =========================================*/
 
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
   color: #1d3557ff;
@@ -41,7 +43,7 @@ a:hover {
 }
 
 h1 {
-font-size: 64px;
+  font-size: 64px;
 }
 
 h2 {
@@ -88,6 +90,21 @@ header {
   background: rgba(29, 53, 87, 60%);
 }
 
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #457b9dff;
+  padding: 25px 0;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 20px;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
 /* Work Experience
 =========================================*/
 .work-experience {
@@ -96,10 +113,11 @@ header {
 
 /* Education
 =========================================*/
-
-/* Contact Info
-=========================================*/
-footer {
+.education {
   background: #457b9dff;
   color: #f1faeeff;
 }
+
+/* Contact Info
+=========================================*/
+
