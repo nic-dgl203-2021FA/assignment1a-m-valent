@@ -89,6 +89,9 @@ h3 {
   border-bottom: 1px dashed #457b9dff;
   padding: 25px 0;
 }
+.divider > section:last-of-type {
+  border-style: none;
+}
 
 /* Profile
 =========================================*/
