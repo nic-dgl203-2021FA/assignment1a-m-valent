@@ -99,7 +99,6 @@ h3 {
 header {
   background: #1d3557ff;
   color: #f1faeeff;
-  text-align: center;
 }
 
 /* Projects
@@ -127,11 +126,6 @@ header {
   overflow: hidden;
 }
 
-.project-item img {
-  float: left;
-  margin-right: 20px;
-}
-
 .project-item h3 {
   margin-top: 0;
 }
@@ -140,12 +134,6 @@ header {
 =========================================*/
 .work-experience {
   background: #a8dadcff;
-}
-
-.job-item {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 20px;
 }
 
 /* Education
@@ -164,9 +152,8 @@ header {
 /* Contact Info
 =========================================*/
 footer {
-  /* background: #457b9dff;
-  color: #f1faeeff; */
-  text-align: center;
+  background: #457b9dff;
+  color: #f1faeeff;
 }
 
 .contact-list {
@@ -179,4 +166,24 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+}
+
+/* Responsive
+=========================================*/
+
+@media screen and (min-width: 750px) {
+  header,
+  footer {
+    text-align: center;
+  }
+
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
 }
