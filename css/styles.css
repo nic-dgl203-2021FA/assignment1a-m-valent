@@ -21,13 +21,7 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 
 /* Global Styles
 =========================================*/
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-html {
+S html {
   box-sizing: border-box;
 }
 *,
@@ -141,6 +135,14 @@ header {
   border-radius: 8px;
 }
 
+.boxed_img {
+  display: block;
+  margin-left: 12.5%;
+  width: 75%;
+  border-radius: 8px;
+ padding-bottom: 20px;
+}
+
 /* Work Experience
 =========================================*/
 .work-experience {
@@ -190,32 +192,35 @@ footer {
   visibility: hidden;
   width: 70%;
 
-  position: absolute; top: 100%; left: 15%;
+  position: absolute;
+  top: 100%;
+  left: 15%;
 
   transition: all 0.8s ease;
 }
-	.lightbox__close {
-		background: #fff;
-		color: #000;
-		display: block;
-		font-weight: bold;
-		height: 3rem;
-		line-height: 3rem;
-		text-align: center;
-		text-decoration: none;
-		width: 3rem;
+.lightbox__close {
+  background: #fff;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  width: 3rem;
 
-		border-radius: 100%;
-		box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
 
-		position: absolute; top: -1.5rem; right: -1.5rem;
-	}
-
-.lightbox:target {
-	opacity: 1;
-	visibility: visible;
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
 }
 
+.lightbox:target {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* Responsive
 =========================================*/
@@ -244,7 +249,6 @@ footer {
   .projects li {
     margin-left: 320px;
   }
-
 }
 
 @media screen and (max-width: 749px) {
@@ -260,5 +264,3 @@ footer {
     padding: 5px;
   }
 }
-
-
