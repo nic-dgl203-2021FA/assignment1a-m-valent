@@ -25,8 +25,12 @@
       rel="stylesheet"
     />
 
+    <!-- linked w3schools stylesheets -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
     <!-- linked style sheet to this html page -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/stylesModal.css" />
+
   </head>
   <body>
     <main>
@@ -72,7 +76,7 @@
           </p>
 
           <!-- Copy the whole <section> block to add more projects. -->
-          <section class="project-item">
+          <section class="w3-container project-item">
             <img
               src="images/projects/IMG-102-Action-Not-Words.png"
               alt="Project 1 Action Not Words by Misko Valent"
@@ -91,20 +95,49 @@
               <li>Three colours max...</li>
             </ul>
 
-            <a class="btn" href="#lightbox-1" rel="lightbox"
-              >View Project</a>
+            <button
+              onclick="document.getElementById('id01').style.display='block'"
+              class="btn"
+            >
+              Fade In Modal
+            </button>
+
+            <div id="id01" class="w3-modal w3-animate-opacity">
+              <div class="w3-modal-content w3-card-4">
+                <header class="w3-container w3-light-grey">
+                  <span
+                    onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-large w3-display-topright"
+                    >&times;</span
+                  >
+                  <h2>Action Not Words</h2>
+                </header>
+                <div class="w3-container">
+                  <p>
+                      <img class="boxed_img"
+              src="images/projects/IMG-102-Action-Not-Words.png"
+              alt="Project 1 Action Not Words by Misko Valent"/>
+                  </p>
+                </div>
+                <footer class="w3-container w3-light-grey">
+                  <p>by Misko Valent</p>
+                </footer>
+              </div>
+            </div>
+
+            <!-- <a class="btn" href="#lightbox-1" rel="lightbox"
+              >View Project</a> -->
 
             <!-- modified found Modal code by Gary Rae at https://codepen.io/Garyrae/pen/wEetF -->
 
-            <div class="lightbox" id="lightbox-1">
+            <!-- <div class="lightbox" id="lightbox-1">
             
               <img
               src="images/projects/IMG-102-Action-Not-Words.png"
               alt="Project 1 Action Not Words by Misko Valent"           />
             
               <a class="lightbox__close" href="#">X</a>
-            </div>
-
+            </div> -->
           </section>
 
           <section class="project-item">
@@ -127,17 +160,16 @@
               <li>Full page had to be used...</li>
             </ul>
 
-            <a class="btn" href="#lightbox-2" rel="lightbox"
-              >View Project</a>
+            <a class="btn" href="#lightbox-2" rel="lightbox">View Project</a>
 
             <!-- modified found Modal code by Gary Rae at https://codepen.io/Garyrae/pen/wEetF -->
 
             <div class="lightbox" id="lightbox-2">
-            
               <img
-              src="images/projects/IMG-103-Fantastic-Voyage.png"
-              alt="Project 2 Fantastic Voyage by Misko Valent"           />
-            
+                src="images/projects/IMG-103-Fantastic-Voyage.png"
+                alt="Project 2 Fantastic Voyage by Misko Valent"
+              />
+
               <a class="lightbox__close" href="#">X</a>
             </div>
           </section>
@@ -162,17 +194,16 @@
               <li>Three font-families max...</li>
             </ul>
 
-            <a class="btn" href="#lightbox-3" rel="lightbox"
-              >View Project</a>
+            <a class="btn" href="#lightbox-3" rel="lightbox">View Project</a>
 
             <!-- modified found Modal code by Gary Rae at https://codepen.io/Garyrae/pen/wEetF -->
 
             <div class="lightbox" id="lightbox-3">
-            
               <img
-              src="images/projects/IMG-112_Magazine-Cover.png"
-              alt="Project 3 DJ Galaxy Cover by Misko Valent"           />
-            
+                src="images/projects/IMG-112_Magazine-Cover.png"
+                alt="Project 3 DJ Galaxy Cover by Misko Valent"
+              />
+
               <a class="lightbox__close" href="#">X</a>
             </div>
           </section>
@@ -193,7 +224,9 @@
               final product.
             </p>
 
-            <p>Some of the programs & applications used in the production were:</p>
+            <p>
+              Some of the programs & applications used in the production were:
+            </p>
 
             <ul>
               <li>Adobe Illustrator & Photoshop...</li>
@@ -202,19 +235,23 @@
               <li>Adobe Premiere Pro, Audition, & After Effects...</li>
             </ul>
 
-            <a class="btn" href="#lightbox-4" rel="lightbox"
-              >View Project</a>
+            <a class="btn" href="#lightbox-4" rel="lightbox">View Project</a>
 
             <!-- modified found Modal code by Gary Rae at https://codepen.io/Garyrae/pen/wEetF -->
 
             <div class="lightbox" id="lightbox-4">
-            
               <section>
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GX6Cg093sZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/GX6Cg093sZA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </section>
-            
+
               <a class="lightbox__close" href="#">X</a>
             </div>
           </section>
