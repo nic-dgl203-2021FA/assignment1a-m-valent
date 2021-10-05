@@ -1,14 +1,13 @@
 /*
+Student:      Misko Valent
+Date:         Sept 16, 2021
 
-Student:    Misko Valent
-Date:       Sept 16, 2021
-
-Filename:   styles.css
-LastUpdated:Sept 29, 2021
+Filename:     styles.css
+LastUpdated:  Oct 05, 2021
   
-Class:      DGL 203 - Advanced CSS
-Instructor: Megan Wilson
-Semester:   NIC 2021 Fall
+Class:        DGL 203 - Advanced CSS
+Instructor:   Megan Wilson
+Semester:     NIC 2021 Fall
 
 Color Palette
 https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
@@ -169,7 +168,7 @@ footer {
 /* Responsive
 =========================================*/
 
-@media screen and (min-width:750px) {
+@media screen and (min-width: 750px) {
   header,
   footer {
     text-align: center;
@@ -179,6 +178,7 @@ footer {
     float: left;
     margin-right: 20px;
   }
+
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -190,7 +190,7 @@ footer {
   }
 }
 
-@media screen and (max-width:749px) {
+@media screen and (max-width: 749px) {
   h1 {
     font-size: 54px;
     line-height: 1;
@@ -198,8 +198,8 @@ footer {
   }
   h2 {
     font-size: 32px;
-}
-.contact-list a {
-  padding: 5px;
-}
+  }
+  .contact-list a {
+    padding: 5px;
+  }
 }
