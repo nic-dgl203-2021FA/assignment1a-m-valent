@@ -103,15 +103,17 @@ header {
 /* Projects
 =========================================*/
 .projects {
-  background: #f1faeeff;
+  background: #457b9dff;
+  color: #f1faeeff;
 }
 .projects a {
-  color: #457b9dff;
+  color: #1d3557ff;
+  font-weight: bold;
 }
 
 .projects .btn {
   color: #1d3557ff;
-  background: #457b9dff;
+  background: #f1faeeff;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -119,6 +121,7 @@ header {
 }
 .projects .btn:hover {
   background: rgba(29, 53, 87, 60%);
+  color: #f1faeeff;
 }
 
 .project-item {
@@ -127,6 +130,10 @@ header {
 
 .project-item h3 {
   margin-top: 0;
+}
+
+.project-item img {
+  border-radius: 8px;
 }
 
 /* Work Experience
@@ -151,8 +158,7 @@ header {
 /* Contact Info
 =========================================*/
 footer {
-  background: #457b9dff;
-  color: #f1faeeff;
+  background: #f1faeeff;
 }
 
 .contact-list {
@@ -188,6 +194,11 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+  .projects li {
+    margin-left: 320px;
+  }
+
 }
 
 @media screen and (max-width: 749px) {
