@@ -32,9 +32,29 @@
     <link rel="stylesheet" href="css/stylesModal.css" />
   </head>
   <body>
+
+    <!-- copied code from w3school.com at https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_navbar_hide
+to help me provide a responsive navigation bar when viewed on mobile device -->
+
+<div class="w3-bar w3-blue-grey">
+  <a href="#home" class="w3-bar-item w3-button">Home</a>
+  <a href="#projects" class="w3-bar-item w3-button w3-hide-small">Projects</a>
+  <a href="#experience" class="w3-bar-item w3-button w3-hide-small">Experience</a>
+  <a href="#education" class="w3-bar-item w3-button w3-hide-small">Education</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-blue-grey w3-hide w3-hide-large w3-hide-medium">
+  <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+  <a href="#experience" class="w3-bar-item w3-button">Experience</a>
+  <a href="#education" class="w3-bar-item w3-button">Education</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
+      <header id="home">
         <div class="content-wrap">
           <h1>Misko Valent</h1>
           <h2>Digital Media Designer</h2>
@@ -60,7 +80,7 @@
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="content-wrap divider">
           <h2>Featured Projects</h2>
 
@@ -308,7 +328,7 @@
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="work-experience">
+      <section class="work-experience" id="experience">
         <div class="content-wrap item-details divider">
           <h2>Work Experience</h2>
           <p>
@@ -359,7 +379,7 @@
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
+      <section class="education" id="education">
         <div class="content-wrap item-details">
           <h2>Education</h2>
 
@@ -387,7 +407,7 @@
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
+      <footer id="contact">
         <div class="content-wrap">
           <h2>Let's Keep in Touch!</h2>
 
@@ -406,5 +426,20 @@
         </div>
       </footer>
     </main>
+
+<!-- copied code from w3school.com at https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_navbar_hide
+to help me provide a responsive navigation bar when viewed on mobile device -->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+      </script>
+
   </body>
 </html>
