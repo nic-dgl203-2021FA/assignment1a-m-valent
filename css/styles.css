@@ -21,7 +21,7 @@ https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
 
 /* Global Styles
 =========================================*/
-S html {
+html {
   box-sizing: border-box;
 }
 *,
@@ -95,7 +95,15 @@ h3 {
 /* Profile
 =========================================*/
 header {
-  background: #1d3557ff;
+  /* background: #1d3557ff; */
+ 
+  /* downloaded background image from http://wallpaperswide.com/above_the_clouds_4-wallpapers.html */
+
+  background-image: url(../images/dragon_fantasy_art-wallpaper-2400x1350.jpg);
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 20px;
+  /* background: #0000ff80; */
   color: #f1faeeff;
 }
 
