@@ -73,7 +73,11 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.item-details h3 {
+  color: #a8dadcff;
 }
 
 .item-details h3 + p {
@@ -81,7 +85,7 @@ h3 {
 }
 
 .item-details h3 ~ p {
-  margin: 0;
+  margin-bottom: 8px;
 }
 
 .divider > section {
@@ -162,7 +166,7 @@ header {
 }
 
 .education p {
-  width: 60%;
+  width: 75%;
 }
 
 /* Contact Info
