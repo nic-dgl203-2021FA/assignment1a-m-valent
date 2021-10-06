@@ -157,6 +157,9 @@ header {
 .work-experience {
   background: #a8dadcff;
 }
+.job-item h3 {
+  color: #1d3557ff;
+}
 
 /* Education
 =========================================*/
