@@ -165,7 +165,12 @@ header {
 /* Contact Info
 =========================================*/
 footer {
-  background: #f1faeeff;
+  /* background: #f1faeeff;  providing color while background image loads */
+  background-image: url(../images/Designer-Wallpaper-Background-Free.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
+  
 }
 
 .contact-list {
