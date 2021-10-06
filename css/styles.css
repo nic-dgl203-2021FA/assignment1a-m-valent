@@ -95,15 +95,12 @@ h3 {
 /* Profile
 =========================================*/
 header {
-  /* background: #1d3557ff; */
- 
   /* downloaded background image from http://wallpaperswide.com/above_the_clouds_4-wallpapers.html */
 
   background-image: url(../images/dragon_fantasy_art-wallpaper-2400x1350.jpg);
   background-size: cover;
   background-position: left;
   padding-bottom: 20px;
-  /* background: #0000ff80; */
   color: #f1faeeff;
 }
 
@@ -160,10 +157,8 @@ header {
 /* Education
 =========================================*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
-  background-size: cover;
-  background-position: top right;
-  padding-bottom: 100px;
+  background: #1d3557ff;
+  color: #f1faeeff;
 }
 
 .education p {
